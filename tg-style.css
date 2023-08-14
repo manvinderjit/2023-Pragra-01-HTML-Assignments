@@ -1,0 +1,100 @@
+body {
+    padding: 0% 15%;
+    margin: 0px;    
+}
+
+header {
+    height: 250px;
+    background-image: url(./images/travel-guide/toronto-header.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    
+}
+
+a {
+    text-decoration: none;
+    color: cornflowerblue;
+}
+
+#container-navigation {
+    display: flex;
+    justify-content: space-between;
+    background-color: antiquewhite;
+}
+
+nav {
+    height: 40px;
+    text-align: left;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    
+    flex: 1.5;     
+}
+
+nav > a {    
+    width: 100px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container-navigation > div {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    padding: 10px;
+}
+
+p {
+    text-align: justify;
+    padding: 10px;
+}
+
+#container-main {
+    background-color: #fffffa;
+}
+
+#tourist-attractions {
+    background-color: antiquewhite;
+    padding: 30px;
+}
+
+div #container-attractions {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 30px;        
+}
+
+#sub-container-attractions {
+    border: 1px solid darkgray;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 30px;
+    border-radius: 6px;
+}
+
+#sub-container-attractions > img {
+    height: 200px;
+    width: 200px;
+    border-radius: 6px;
+}
+
+
+footer {
+    padding: 10px;
+    background-color: antiquewhite;    
+}
+
+footer > p {    
+}
